@@ -1,0 +1,840 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans';
+        }
+
+        .top-navigation {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #000;
+        }
+
+        .top-navigation .brand-logo {
+            width: 120px;
+            padding: 25px;
+        }
+
+        .menu-links a {
+            padding: 15px;
+            text-decoration: none;
+            color: #ffffffbb;
+        }
+
+        .hero-section {
+            display: flex;  
+            background-image: linear-gradient(#000000b9), url(/images/headerBg.png);
+        }
+
+        .content-wrapper {
+            display: flex;
+            padding: 220px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            width: 50%;
+            color: #fff;
+        }
+
+        .content-wrapper h1 {
+            font-family: 'raleway';
+            font-weight: normal;
+            font-size: 35px;
+            padding: 30px 0 10px 0;
+        }
+
+        .content-wrapper h2 {
+            padding-bottom: 25px;
+        }
+
+        .content-wrapper p {
+            padding: 10px 0 30px 0;
+            font-weight: 100;
+            color: #ffffff5d;
+        }
+
+        .content-wrapper .action-btn {
+            background: transparent;
+            font-size: 15px;
+            color: #fff;
+            margin-top: 10px;
+            padding: 10px 30px;
+            border: solid 2px #fff;
+            cursor: pointer;
+        }
+
+        .registration-area {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .registration-area .signup-form {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            border-radius: 5px;
+            background-color: #fff;
+            width: 350px;
+        }
+
+        .registration-area h3 {
+            padding: 15px 40px;
+            margin-bottom: 20px;
+            border-radius: 5px 5px 0 0;
+            background-color: #f1f1f1;
+        }
+
+        .registration-area .highlight {
+            color: #ff6600;
+        }
+
+        .registration-area .form-input {
+            margin: 20px 40px;
+            padding: 5px 10px;
+            border: none;
+            border-bottom: solid 1px #00000048;
+        }
+
+        .registration-area .submit-btn {
+            padding: 18px;
+            margin-top: 40px;
+            font-size: 15px;
+            color: #fff;
+            border-radius: 0 0 5px 5px;
+            background: #fd9753;
+            cursor: pointer;
+            border: none;
+        }
+
+        .social-platform-bar {
+            display: flex;
+            align-items: center;
+            border-bottom: solid 0.5px #b1acac;
+            box-shadow: 0 1px 2px #74727280; 
+        }
+
+        .platform-description {
+            padding: 20px 220px;
+        }
+
+        .social-platform-bar h3 {
+            padding-bottom: 5px;
+        }
+
+        .social-platform-bar p {
+            color: #00000052;
+        }
+
+        .platform-icons .icon-img {
+            width: 100px;
+            padding: 10px 40px 0 0;
+        }
+
+        .main-navigation-section {
+            display: flex;
+            height: auto;
+            background-color: #f1f1f1;
+        }
+
+        .nav-buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 150px 220px;
+            color: #fff;
+        }
+
+        .nav-buttons .tab-item {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           width: 120px;
+           height: 120px;
+        }
+
+        .primary-tab {
+            background-color: #ff6600;
+            border-radius: 5px 5px 0 0;
+            border-bottom: solid 0.5px #fff;
+        }
+
+        .secondary-tab {
+            background-color: #353434;
+        }
+
+        .tertiary-tab {
+            background-color: #353434;
+            border-radius: 0 0 5px 5px;
+            border-top: solid 0.5px #fff;
+        }
+
+        .navigation-content {
+            padding: 150px 0;
+        }
+
+        .navigation-content h3 {
+            padding-bottom: 50px;
+        }
+
+        .navigation-content p {
+            padding-bottom: 50px;
+            color: #00000052;
+            font-weight: 100;
+        }
+
+        .navigation-content .download-btn {
+            padding: 10px 30px;
+            background-color: #ff6600;
+            border: none;
+            border-radius: 7px;
+            font-size: 15px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .visual-content {
+            width: 150%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .feature-showcase {
+            display: flex;
+            height: auto;
+        }
+
+        .showcase-image {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 150px 0;
+        }
+
+        .showcase-image img {
+            box-shadow: 10px 15px 40px #747272;
+        }
+
+        .feature-details {
+            width: 50%;
+            padding: 130px 330px 60px 150px;   
+        }
+
+        .feature-details h2 {
+            padding-bottom: 22px;
+            color: #ff6600;
+            font-size: 22px;
+        }
+
+        .feature-details p {
+            color: #00000052;
+            padding-bottom: 40px;
+        }
+
+        .feature-item {
+            display: flex;
+        }
+
+        .feature-item .item-icon {
+            width: 70px;
+            padding-right: 20px;
+        }
+
+        .feature-item h5 {
+            font-size: 15px;
+            padding-bottom: 5px;
+            color: #000000d8;
+        }
+
+        .standard-layout {
+            display: flex;
+            background-color: #f1f1f1;
+            height: auto;
+        }
+
+        .layout-content {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 202px 0 220px;
+        }
+
+        .layout-content h2 {
+            padding-bottom: 22px;
+            font-size: 22px;
+            color: #ff6600;
+        }
+
+        .layout-content p {
+            color: #00000052;
+            padding-bottom: 30px;
+        }
+
+        .standard-layout .image-container {
+            width: 50%;
+            padding: 150px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .standard-layout img {
+            box-shadow: 10px 15px 40px #747272;
+        }
+
+        .benefits-overview {
+            text-align: center;
+        }
+
+        .main-title {
+            font-family: 'raleway';
+            font-weight: normal;
+            font-size: 35px;
+            padding-top: 100px;
+        }
+
+        .benefits-overview h2 {
+            padding-bottom: 22px;
+            color: #ff6600;
+            font-size: 22px;
+        }
+
+        .benefits-overview p {
+            color: #00000052;
+            padding-bottom: 90px;
+        }
+
+        .benefits-grid {
+            display: flex;
+            padding: 0 300px;
+            gap: 50px;
+        }
+
+        .benefits-grid h3 {
+            padding: 30px 0;
+        }
+
+        .pricing-section {
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+
+        .pricing-header h2 {
+            padding-bottom: 22px;
+            color: #ff6600;
+            font-size: 22px;
+        }
+
+        .pricing-header p {
+            padding-bottom: 80px;
+            color: #00000052;
+        }
+
+        .pricing-grid {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .pricing-grid .plan-card {
+            width: 390px;
+        }
+
+        .pricing-grid h2 {
+            color: #fff;
+            padding: 15px;
+            background-color: #353434;
+            border-bottom: solid 1px #fff;
+        }
+
+        .plan-cost {
+            background-color: #353434;
+            color: #fff;
+            border-bottom: solid 7px #ff6600;
+        }
+
+        .plan-cost .currency {
+            font-size: 40px;
+        }
+
+        .plan-cost h3 {
+            font-size: 130px;
+            font-family: 'raleway';
+            padding-bottom: 5px;
+        }
+
+        .plan-cost h4 {
+            padding-bottom: 15px;
+            font-style: italic; 
+            font-weight: normal;   
+            color: #ffffff5d;
+        }
+
+        .featured-badge {
+            color: #fff;
+            background-color: #ff6600;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .pricing-grid p {
+            padding: 10px;
+            background-color: #fff;
+            border-bottom: solid 0.1px #cccbcb41;
+            color: #00000052;
+        }
+
+        .popular-plan {
+            padding-bottom: 100px;
+        }
+
+        .testimonials-section {
+            text-align: center;
+            height: auto;
+        }
+
+        .testimonials-section h2 {
+            padding-bottom: 22px;
+            color: #ff6600;
+            font-size: 22px;
+        }
+
+        .testimonials-section p {
+            color: #00000052;
+            padding-bottom: 50px;
+        }
+
+        .testimonial-cards {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+        }
+
+        .client-profile {
+            display: flex;
+        }
+
+        .client-profile .profile-pic {
+            width: 70px;
+            border-radius: 50px;
+            margin: 15px 10px 100px 0;
+        }
+
+        .client-profile h3 {
+            padding-top: 30px;
+        }
+
+        .testimonial-bubble {
+    background-image: url(/images/textBubble.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 310px;
+    padding: 25px;
+    text-align: start;
+    font-family: 'raleway';
+    font-style: italic;
+    font-size: 15px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+        .design-showcase {
+            background-image: linear-gradient(#000000b9), url(/images/bg2.png);
+            background-size: cover;
+            text-align: center;
+            color: #fff;
+        }
+
+        .design-showcase h2 {
+            font-size: 22px;
+            padding-bottom: 22px;
+        }
+
+        .design-showcase p {
+            color: #ffffff5d;
+        }
+
+        .design-showcase .cta-button {
+            background: transparent;
+            font-size: 15px;
+            color: #fff;
+            margin: 30px 0 100px 0;
+            padding: 10px 30px;
+            border: solid 2px #fff;
+            cursor: pointer;
+        }
+
+        .contact-form-section {
+            text-align: center;
+        }
+
+        .contact-header h2 {
+            font-size: 22px;
+            color: #ff6600;
+            padding-bottom: 22px;
+        }
+
+        .contact-header p {
+            color: #00000052;
+            padding-bottom: 50px;
+        }
+
+        .contact-form-section .contact-form {
+            display: flex;
+            justify-content: center;
+        }
+
+        .contact-form-section .text-input {
+            margin: 20px 40px;
+            padding: 5px 10px;
+            width: 530px;
+            border: none;
+            border-bottom: solid 1px #9493937a;
+        }
+
+        .contact-form-section .message-field {
+            margin: 20px 40px;
+            width: 530px;
+            color: #00000052;
+            border: none;
+            border-bottom: solid 1px #9493937a;
+        }
+
+        .contact-form-section .send-btn {
+                padding: 10px 25px;
+                margin: 20px 0 100px 0;
+                font-size: 16px;
+                font-weight: 400;
+                background-color: #ff6600;
+                color: #fff;
+                border: none;
+                border-radius:  5px;
+                cursor: pointer;
+        }
+
+        .site-footer {
+            text-align: center;
+            background-color: #000;
+        }
+
+        .site-footer .footer-logo {
+            padding: 20px 0 10px 0;
+            width: 400px;
+        }
+
+        .site-footer p {
+            color: #ffffff5d;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+
+        @media (max-width: 1279px) {
+            .content-wrapper {
+                padding: 150px;
+                width: 60%;
+            }
+
+            .platform-description {
+                padding: 20px 40px;
+            }
+
+            .registration-area {
+                width: 40%;
+                padding: 0 20px 0 0;
+            }
+
+            .main-navigation-section {
+                flex-direction: column;
+                text-align: center;
+                padding: 50px 0;
+            }
+
+            .nav-buttons {
+                padding: 0;
+                width: 100%;
+                flex-direction: row;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .navigation-content {
+                padding: 50px 20px 0 20px;
+            }
+
+            .visual-content {
+                width: 100%;
+                padding: 50px 0 0 0;
+            }
+
+            .feature-showcase {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
+
+            .showcase-image {
+                width: 100%;
+                padding: 50px 0 0 0;
+            }
+
+            .feature-item p {
+                text-align: center;
+            }
+
+            .feature-details {
+                padding: 0 50px 60px 50px;   
+                width: 100%;
+            }
+
+            .standard-layout {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .layout-content {
+                padding: 50px 50px 0 50px;
+                width: 100%;
+            }
+
+            .standard-layout .image-container {
+                width: 100%;
+                padding: 50px 0 150px 0;
+            }
+
+            .benefits-grid {
+                flex-direction: column;
+                padding: 0 100px;
+                gap: 20px;
+            }
+
+            .popular-plan {
+                padding: 0;
+            }
+
+            .pricing-grid {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                padding-bottom: 100px;
+            }
+
+            .testimonial-cards {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                padding-bottom: 100px;
+            }
+
+            .contact-form-section .text-input {
+                width: 400px;
+            }
+        }
+
+        @media (max-width: 920px) {
+            .platform-description {
+                padding: 20px 50px;
+            }
+
+            .platform-icons .icon-img {
+                width: 50px;
+                padding: 5px 5px 0 0;
+            }
+
+            .popular-plan {
+                padding: 0;
+            }
+
+            .contact-form-section .text-input {
+                width: 300px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .top-navigation {
+                flex-direction: column;
+            }
+
+            .menu-links {
+                padding-bottom: 10px;
+            }
+
+            .hero-section {
+                flex-direction: column;
+            }
+
+            .registration-area {
+                width: 80%;
+                padding: 30px;
+                margin: auto;
+            }
+
+            .platform-icons .icon-img {
+                width: 30px;
+                padding: 2px 2px 0 0;
+            }
+
+            .content-wrapper {
+                padding: 100px 50px;
+                width: 100%;
+                text-align: center;
+            }
+
+            .platform-description h3 {
+                font-size: 16px;
+            }
+
+            .platform-description p {
+                font-size: 14px;
+            }
+
+            .nav-buttons .tab-item {
+                width: 100px;
+                height: 100px;
+            }
+
+            .popular-plan {
+                padding: 0;
+            }
+            
+            .navigation-content {
+                padding: 30px 20px 0 20px;
+            }
+
+            .visual-content {
+                padding: 30px 0 0 0;
+            }
+
+            .contact-form-section .text-input {
+                width: 200px;
+                margin: 20px 10px;
+            }
+
+            .contact-form-section .message-field {
+                width: 200px;
+                margin: 20px 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .content-wrapper h1 {
+                font-size: 28px;
+                padding: 20px 0 10px 0;
+            }
+
+            .content-wrapper h2 {
+                font-size: 20px;
+                padding-bottom: 15px;
+            }
+
+            .content-wrapper p {
+                font-size: 14px;
+                padding-bottom: 20px;
+            }
+
+            .content-wrapper .action-btn {
+                font-size: 13px;
+                padding: 8px 20px;
+            }
+
+            .registration-area .signup-form {
+                width: 300px;
+            }
+
+            .pricing-grid .plan-card {
+                width: 300px;
+            }
+
+            .registration-area h3 {
+                font-size: 16px;
+                padding: 10px 20px;
+                margin-bottom: 10px;
+            }
+
+            .registration-area .form-input {
+                margin: 10px 20px;
+            }
+
+            .registration-area .submit-btn {
+                padding: 15px;
+                margin-top: 20px;
+                font-size: 13px;
+            }
+
+            .social-platform-bar {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+                padding-bottom: 10px;
+            }
+
+            .platform-description {
+                padding: 10px 20px;
+            }
+
+            .main-navigation-section {
+                padding: 20px 0;
+            }
+
+            .nav-buttons {
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+
+            .navigation-content {
+                padding: 20px 10px 0 10px;
+            }
+
+            .visual-content {
+                padding: 20px 0 0 0;
+            }
+
+            .showcase-image img {
+                width: 90%;
+            }
+
+            .feature-details {
+                padding: 0 20px 60px 20px;   
+                width: 100%;
+            }
+
+            .layout-content {
+                padding: 20px 20px 0 20px;
+            }
+
+            .standard-layout img {
+                width: 90%;
+            }
+
+            .benefits-grid {
+                padding: 0 50px;
+            }
+
+            .popular-plan {
+                padding: 0;
+            }
+
+            .testimonial-cards {
+                padding-bottom: 50px;
+            }
+
+            .contact-form-section .text-input {
+                width: 200px;
+                margin: 10px;
+            }
+
+            .contact-form-section .message-field {
+                width: 200px;
+                margin: 10px;
+            }
+
+            .site-footer .footer-logo {
+                width: 300px;
+            }
+        }
