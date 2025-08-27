@@ -27,7 +27,7 @@
 
         .hero-section {
             display: flex;  
-            background-image: linear-gradient(#000000b9), url(/images/headerBg.png);
+            background-image: linear-gradient(#000000b9), url(assets/images/headerBg.png);
         }
 
         .content-wrapper {
@@ -432,7 +432,7 @@
         }
 
         .testimonial-bubble {
-    background-image: url(/images/textBubble.png);
+    background-image: url(assets/images/textBubble.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 310px;
@@ -446,7 +446,7 @@
 }
 
         .design-showcase {
-            background-image: linear-gradient(#000000b9), url(/images/bg2.png);
+            background-image: linear-gradient(#000000b9), url(assets/images/bg2.png);
             background-size: cover;
             text-align: center;
             color: #fff;
